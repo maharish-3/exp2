@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Academic Bio - MAHARISH BALAKUMAR B</title>
+    <style>
+        body {
+            background-color: #e3f2fd;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .bio-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px #ccc;
+        }
+        .bio-image {
+            border-radius: 50%;
+        }
+        .bio-columns {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+        .bio-column {
+            flex: 1;
+            min-width: 300px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        .media-section {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bio-container">
+        <!-- Heading -->
+        <h1>MAHARISH BALAKUMAR B</h1>
+        <h3>B.Tech Computer Science & Engineering Student</h3>
+
+        <!-- Profile Image -->
+        <img src="C:\Users\mahar\Downloads\20250412_122228.jpg" width="300" height="300" alt="Profile photo" class="bio-image">
+
+        <div class="bio-columns">
+            <div class="bio-column">
+                <!-- About Me -->
+                <h4>About Me</h4>
+                <p>
+                    Hi, I'm B. MAHARISH BALAKUMAR. I completed my schooling at Vikaasa School, Madurai.
+                    Currently pursuing my B.Tech in Computer Science and Engineering at Karunya University.
+                    Passionate about solving real-world problems through technology and innovation.
+                </p>
+
+                <!-- Academic Interests -->
+                <h4>Academic Interests</h4>
+                <ul>
+                    <li>SQL</li>
+                    <li>JAVA Programming</li>
+                    <li>Python programming</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Data Analytics</li>
+                </ul>
+
+                <!-- Skills -->
+                <h4>Skills</h4>
+                <ul>
+                    <li>Programming: Python, C, Java</li>
+                    <li>Web: HTML, CSS, JS</li>
+                    <li>Tools: VS Code</li>
+                    <li>Database: MySQL</li>
+                </ul>
+            </div>
+
+            <div class="bio-column">
+                <!-- Projects -->
+                <h4>Projects</h4>
+                <ul>
+                    <li><strong>Online Banking Transaction Record</strong> – Secure banking logs using Unix/Linux tools.</li>
+                    <li><strong>Smart Traffic System</strong> – Simulated smart traffic lights using congestion data.</li>
+                </ul>
+
+                <!-- Certifications -->
+                <h4>Certifications</h4>
+                <ul>
+                    <li>NPTEL: Cloud Computing Essentials</li>
+                    <li>Oracle Academy: Java Foundations</li>
+                </ul>
+
+                <!-- Contact Info -->
+                <h4>Contact</h4>
+                <p>
+                    📧 Email: <a href="mailto:maharishbala@gmail.com">maharishbala@gmail.com</a><br>
+                    📍 Location: Madurai, Tamil Nadu, India<br>
+                    📞 Phone: 9363244011
+                </p>
+            </div>
+        </div>
+
+        <!-- Table Example -->
+        <h4>Languages Known</h4>
+        <table>
+            <tr><th>Language</th><th>Proficiency</th></tr>
+            <tr><td>English</td><td>Fluent</td></tr>
+            <tr><td>Tamil</td><td>Native</td></tr>
+            <tr><td>Hindi</td><td>Basic</td></tr>
+        </table>
+
+        <!-- Media Section -->
+        <div class="media-section">
+            <h4>Audio Introduction</h4>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h4>Video Project Demo</h4>
+            <video width="320" height="240" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <h4>Embedded W3Schools Site</h4>
+            <iframe src="https://www.w3schools.com" width="300" height="200" title="W3Schools"></iframe>
+        </div>
+
+        <!-- Form Example -->
+        <h4>Contact Form</h4>
+        <form action="/submit_form.php" method="post">
+            <fieldset>
+                <legend>Get in Touch</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="interest">Interest Area:</label>
+                <select id="interest" name="interest">
+                    <option value="ai">Artificial Intelligence</option>
+                    <option value="web">Web Development</option>
+                    <option value="data">Data Science</option>
+                </select><br><br>
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+        <!-- Progress -->
+        <h4>My HTML5 Learning Progress</h4>
+        <label for="progress">Progress:</label>
+        <progress id="progress" value="80" max="100">80%</progress>
+
+        <!-- HTML Comment -->
+        <!-- This section shows progress bar, form, media and table usage -->
+    </div>
+</body>
+</html>
